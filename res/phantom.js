@@ -1,6 +1,6 @@
 /* global phantom */
 var webpage = require( 'webpage' ),
-	currentUrl = phantom.args[ 0 ],
+	currentUrl = phantom.args ? phantom.args[ 0 ] : require( 'system' ).args[ 1 ],
 	page;
 
 function renderPage( url ) {

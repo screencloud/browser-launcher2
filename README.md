@@ -182,6 +182,7 @@ Browser instance object.
 - *Stream* `stderr` - instance's process STDERR stream
 
 **Events:**
+- `error` - fired on instance errors
 - `stop` - fired when instance stops
 
 **Methods:**
